@@ -1,0 +1,19 @@
+{
+  "name": "city-weather-bot-nodejs",
+  "version": "1.0.0",
+  "description": "city-weather-bot-nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec ts-node src/index.ts"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "M.Ali Basavad",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0",
+    "telegram": "^2.20.2",
+    "ts-node": "^10.9.2"
+  }
+}
