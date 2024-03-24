@@ -41,7 +41,7 @@ npm install
 
 5. Run the application:
 ```run
-npm start
+npm  start
 ```
 
 6. Open your telegram and start the bot
