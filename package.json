@@ -12,6 +12,7 @@
   "author": "M.Ali Basavad",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.6.8",
     "nodemon": "^3.1.0",
     "telegram": "^2.20.2",
     "ts-node": "^10.9.2"

@@ -1,7 +1,7 @@
 import env from "./configs/env.json";
 import { TelegramClient } from "telegram";
 import { StringSession } from "telegram/sessions";
-import { start } from "./controllers/commands";
+import * as command from "./controllers/commands";
 
 // Telgram StringSession
 const session: StringSession = new StringSession(env.stringSession);
@@ -21,7 +21,9 @@ const client: TelegramClient = new TelegramClient(
         const chatID: number = Number(event.message.chatId) || 254133712;
 
         if (event.message.message.startsWith("/start")) {
-            start(client, chatID);
+            command.start(client, chatID);
+        } else if (event.message.message.startsWith("/city")) {
+            command.city(client, chatID, event.message.message);
         }
     });
 })();
