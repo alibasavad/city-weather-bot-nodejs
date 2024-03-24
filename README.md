@@ -1,7 +1,7 @@
 
 # Welcom to CityWeatherBot
 
-This is a simple telegram bot to get weather information from [openweathermap.org](https://openweathermap.org/) which I did as an exercise to learn typescript ,and I hope you enjoy using it.
+This is a simple telegram bot to get weather information from [openweathermap.org](https://openweathermap.org/).
 
 Currently, this robot returns information about the current weather condition of a city just by taking the name of the city
 
@@ -27,7 +27,7 @@ cd city-weather-bot-nodejs
 ```
 3. Install the packages:
 ```package
-npm i axios nodemon telegram ts-node typescript
+npm install
 ```
 4. Make a "configs" folder in "src" folder and create a "env.json" file in it. Add this configs in "env.json" file:
 ```JSON
